@@ -27,7 +27,7 @@ requests==2.25.1
 Rtree==0.9.7
 scikit_image==0.18.1
 scipy==1.6.0
-setuptools==49.2.1
+setuptools==65.5.1
 Shapely==1.7.1
 skimage==0.0
 utm==0.7.0
