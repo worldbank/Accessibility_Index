@@ -4,8 +4,6 @@ This notebook describes the process to create the folder structure that will be 
 
 Note that the code requires minor adaptations to setup your project correctly.
 
-All the layers necessary to run the code are available in [Input](https://ucdavis.box.com/s/sni7hvtlgslee4gb4jj66p8886psurw9). Meanwhile, all results can be found in [Output](https://ucdavis.box.com/s/tmvf7k85ctp0g957nkp7fx1tqgbk6dx3).
-
 The following variables are found in the notebook, and need to be adapted in the notebook for your project
 
 ==============================

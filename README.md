@@ -4,7 +4,7 @@ These folders contain simplified versions of notebooks that were used by the Pov
 
 While Poverty and Equity GP also consider govermental road data, these notebooks are made for general use using OSM roads data.  This is because government datasets that are usually integrated into roads data vary in structure and naming conventions, and it is thus difficult to write code that is generically compatible with these. Destination datasets can be provided from OSM or custom user-created, or other sources.  As long as the correct data preparation steps are followed.  The correct data preparation procedures are discussed in the README file located in the "2. Friction Surface" folder.
 
-A set of sample data with expected outputs can be found 
+All the layers necessary to run the code are available in [Input](https://ucdavis.box.com/s/sni7hvtlgslee4gb4jj66p8886psurw9). Meanwhile, all results can be found in [Output](https://ucdavis.box.com/s/tmvf7k85ctp0g957nkp7fx1tqgbk6dx3).
 
 ## Repository structure
 
