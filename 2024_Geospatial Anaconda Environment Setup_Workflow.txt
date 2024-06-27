@@ -1,0 +1,41 @@
+This is a short walkthrough on setting up a *generic* geospatial analysis Anaconda environment on your  machine.
+
+This also installs the Jupyter Notebook software commonly used for Python (and other) development tasks.
+
+The guide was first written in November 2020, with a major revision in April 2024.  
+
+Please let Andries Heyns know if any changes are required!
+
+Last Updated: June 24, 2024 by Andries Heyns (aheyns@worldbank.org)
+-----------------------------------
+
+1. Install Anaconda
+2. Open Anaconda Powershell
+
+3. Run the following commands *in this order*
+
+conda create --name geo python=3.8.10
+conda activate geo
+
+conda install -n base conda-libmamba-solver
+
+conda install vs2015_runtime=14 --solver=libmamba
+
+conda install -c conda-forge geopandas rasterio geojson pycrs geemap regex numpy --solver=libmamba
+
+pip install wheel
+pip install osmnx peartree geopy boltons pulp palettable geopy importlib pygeos
+pip uninstall rtree
+conda install -c conda-forge matplotlib pysal pointpats scikit-learn fuzzywuzzy pandana --solver=libmamba
+
+pip install scikit-image ipykernel jupyterlab
+pip install dask coiled xarray rioxarray
+conda install -c conda-forge dask-geopandas spatialpandas --solver=libmamba
+
+python -m ipykernel install --user --name geo --display-name "Python (geo)"
+
+----
+
+Notes:
+Some versions of rtree cause problems with geopandas installs (as of August 18, 2021). Therefore we recommend installing pygeos instead.
+
