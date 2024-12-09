@@ -23,7 +23,7 @@ pyproj==3.0.0.post1
 python_geohash==0.8.5
 rasterio==1.2.0
 rasterstats==0.15.0
-requests==2.25.1
+requests==2.32.2
 Rtree==0.9.7
 scikit_image==0.18.1
 scipy==1.6.0
